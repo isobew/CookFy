@@ -7,9 +7,9 @@ function teste(url){
 }
 
 let data = teste();
-let users = JSON.parse(data);
+let users = JSON.parse(data).results[0];
 
 console.log(users)
 
-console.log(users.results[0].name.first)
-console.log(users.results[0].name.last)
+console.log(users.name.first)
+console.log(users.name.last)
