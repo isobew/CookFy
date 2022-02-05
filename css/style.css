@@ -74,6 +74,7 @@
 .user-avatar{
     width: 35px;
     height: 35px;
+    cursor: pointer;
 }
 
 .avatar-container{
@@ -140,6 +141,7 @@
     right: 0;
     z-index:10;
     margin: 20px 280px 0 0;
+    cursor: pointer;
 }
 
 .first-block{
@@ -161,7 +163,10 @@
     width: 90vw;
     display: flex;
     justify-content: flex-end;
-    
+}
+
+.fst-block-img{
+    cursor: pointer;
 }
 
 .food-info{
@@ -187,8 +192,42 @@
 
 
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     height: 35vh;
     background-image: url('../assets/Rodapé.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.copy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 0 0 20px;
+}
+
+.social{
+    width: 18vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-media {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.social-media:hover path {
+    fill: #e82147;
 }
