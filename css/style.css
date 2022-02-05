@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #ffdbbc;
+    width: 100 vw;
+    height: 600px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 80px 50px;
+}
+
+.header-logo{
+    width: 110px;
+}
+
+.header-name{
+    color: #e82147;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.header-profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #E2E2E2;
+    line-height: 1.31;
+}
+
+.search{
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #3f3f3f;
+    line-height: 1.31;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 5px 30px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+}
+
+.search-container{
+    position: relative;
+    width: 500px;
+}
+
+.search-button {
+    cursor: pointer;
+    position:absolute;
+    top:0; right:0;
+    margin: 12px -25px 0 0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+}
+
+.user-avatar{
+    width: 35px;
+    height: 35px;
+}
+
+.avatar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e82147;
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+}
+
+.header-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 250px 0 60px;
+}
+
+.header-first-icon{
+    height: 220px;
+}
+
+.header-second-icon{
+    height: 320px;
+    position: relative;
+}
+
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-user{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    line-height: 1.34;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.header-welcome-name-user, .header-name-cooker{
+    color: #e82147;
+}
+
+.header-desc-container{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 1.31;
+    font-size: 18px;
+}
+
+.description-header{
+    color: #0d0d0d;
+}
+
+.header-food-image{
+    width: 350px;
+    height: 270px;
+    position: absolute;
+    right: 0;
+    z-index:10;
+    margin: 20px 280px 0 0;
+}

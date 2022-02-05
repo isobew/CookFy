@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/Logo_Cookfy.svg" />
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>CookFy</title>
 </head>
+
 <body>
-    
+    <main>
+        <header class="header">
+            <section class="header-top">
+                <img src="./assets/Logo_Cookfy.svg" class="header-logo" />
+                <div class="search-container">
+                    <input type="text" placeholder="Pesquise alguma receita" class="search">
+                    <button class="search-button" type="submit">
+                        <img src="./assets/Lupa.svg" class="search-btn-icon" />
+                    </button>
+                </div>
+                <div class="header-profile-container">
+                    <p class="header-name" id="header-name"></p>
+                    <div class="avatar-container">
+                        <img src="" id='user-avatar' class="user-avatar" />
+                    </div>
+                </div>
+            </section>
+            <section class="header-bottom">
+                <img src="./assets/Elemento_2.svg" class="header-first-icon"/>
+                <div class="welcome-container">
+                    <p class="welcome-user">
+                        <span id="welcome">Bem vindo de volta</span>
+                        <span class="header-welcome-name-user" id="header-welcome-name-user"></span>
+                    </p>
+                    <div class="header-desc-container">
+                        <p class="description-header">Contribuição da comunidade:</p>
+                        <p class="description-header">Ceviche de peixe branco</p>
+                        <span class="header-name-cooker">Por Michel Filipe</span>
+                    </div>
+                </div>
+                <div class="header-image-container">
+                    <img src="./assets/Elemento_1.svg" class="header-second-icon"/>
+                    <img src="./assets/louis-hansel-ZwpX0AJ7GV8-unsplash@2x.jpg" class="header-food-image"/>
+                </div>
+            </section>
+        </header>
+    </main>
     <script src="./js/script.js"></script>
 </body>
+
 </html>

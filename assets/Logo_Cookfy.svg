@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="54" viewBox="0 0 135 54">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:#e82147}.cls-1{font-size:41px;font-family:PlayfairDisplay-Bold,Playfair Display;font-weight:700}.cls-2{fill:#000}
+        </style>
+    </defs>
+    <text id="Logo_Cookfy" class="cls-1" transform="translate(0 44)">
+        <tspan x="0" y="0" class="cls-2">Cook</tspan><tspan y="0" class="cls-3">fy</tspan>
+    </text>
+</svg>
