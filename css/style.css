@@ -190,6 +190,68 @@
     height: 200px;
 }
 
+.snd-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30% 0 5%;
+}
+
+.snd-block-fst-icon{
+    height: 130px;
+}
+
+.snd-block-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.snd-food-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 5% 200px 25%;
+}
+
+.snd-food-img{
+    width: 53%;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.food-list-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.food-list{
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 280px;
+    height: 75px;
+    border: solid 0.5px #f0f0f0;
+}
+
+.food-list-font{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #a19b9b;
+    margin-left: 5%;
+}
+
+.icon{
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
+}
 
 footer{
     display: flex;
