@@ -99,9 +99,17 @@
     height: 220px;
 }
 
-.header-second-icon{
-    height: 320px;
+.header-image-container{
+    background-image: url('../assets/Elemento_1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 470px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .welcome-container{
@@ -135,13 +143,17 @@
 }
 
 .header-food-image{
-    width: 350px;
-    height: 270px;
-    position: absolute;
-    right: 0;
-    z-index:10;
-    margin: 20px 280px 0 0;
-    cursor: pointer;
+    background-image: url('../assets/louis-hansel.jpg');
+    background-size: cover;
+    width: 74%;
+    height: 76%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#details-id{
+    width: 94.5%;
 }
 
 .first-block{
@@ -162,17 +174,47 @@
 .fst-block-fst-icon-container{
     width: 90vw;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
 .fst-block-img{
+    width: 600px;
+    height: 250px;
+    margin-right: 10%;
+    background-image: url(../assets/patrick-kalkman.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fst-block-img:hover{
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.16);
+}
+
+.details-hover{
+    visibility: hidden;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
     cursor: pointer;
+}
+
+.fst-block-img:hover .details-hover, .header-food-image:hover .details-hover{
+    /* botar uma transição leve */
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+    visibility: visible;
 }
 
 .food-info{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 .food-name{
@@ -188,6 +230,37 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 200px;
+}
+
+.arrow-container{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.arrow-btn:hover{
+    background-color: #e82147;
+}
+
+.arrow-btn:hover .arrow path{
+    fill: white;
+}
+
+.arrow path{
+    fill: #e82147;
 }
 
 .snd-title-container{
@@ -219,7 +292,6 @@
 .snd-food-img{
     width: 53%;
     margin-right: 40px;
-    cursor: pointer;
 }
 
 .food-list-container{
@@ -237,6 +309,21 @@
     width: 280px;
     height: 75px;
     border: solid 0.5px #f0f0f0;
+}
+
+.food-list:hover{
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.16);
+    color: #e82147;
+    border: solid 0.5px #e82147;
+}
+
+.food-list:hover p, .food-list:hover .icon path {
+    color:#e82147;
+    fill: #e82147;
+}
+
+.icon path{
+    fill: #DCDCDC;
 }
 
 .food-list-font{
